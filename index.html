@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OverAux — The Chillin' Zone | Bacolod City</title>
+  <meta name="description" content="OverAux The Chillin' Zone — where time stops. Café food, Arabica coffee, desserts & drinks at 463 B.S. Aquino Drive, Bacolod City. View our menu, ratings, promos and branches." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Sora:wght@300;400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23d9a441'/><text x='32' y='43' font-family='Georgia,serif' font-size='26' font-weight='700' text-anchor='middle' fill='%23191009'>OA</text></svg>" />
+</head>
+<body>
+
+  <!-- Fixed background ornaments -->
+  <div class="bg-rings" aria-hidden="true"></div>
+
+  <!-- ══════════════ PRELOADER ══════════════ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-cup">
+      <div class="steam"><span></span><span></span><span></span></div>
+      <div class="cup-body"><div class="cup-fill"></div></div>
+      <div class="cup-handle"></div>
+      <div class="cup-saucer"></div>
+    </div>
+    <p class="preloader-text">Brewing something good</p>
+  </div>
+
+  <!-- ══════════════ NAVIGATION ══════════════ -->
+  <header class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#home" class="nav-logo">
+        <span class="nav-logo-mark">OA</span>
+        <span class="nav-logo-text">OverAux<small>The Chillin' Zone</small></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#promos">Promos</a>
+        <a href="#ratings">Ratings</a>
+        <a href="#branches">Branches</a>
+        <a href="#visit">Visit Us</a>
+        <a href="#contact" class="btn btn-accent btn-sm">Reserve a Table</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <div class="hero-content container">
+      <div class="hero-badge reveal">
+        <span class="pulse-dot"></span> Open Daily in Bacolod City
+      </div>
+
+      <h1 class="hero-title">
+        <span class="hero-line reveal">Where time</span>
+        <span class="hero-line reveal"><em>stops</em> at <span class="gold">OverAux</span></span>
+      </h1>
+
+      <p class="hero-sub reveal">
+        Food. Coffee. Dessert. Drinks. A cozy chill-out café in the City of Smiles —
+        serving loaded nachos, smash burgers, Arabica coffee, and the cheesecake
+        Villamonte keeps coming back for.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="#menu" class="btn btn-accent btn-lg">Explore the Menu</a>
+        <a href="#visit" class="btn btn-ghost btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Find Us
+        </a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-number" data-count="3300" data-suffix="+">0</span>
+          <span class="stat-label">Facebook followers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="1700" data-suffix="+">0</span>
+          <span class="stat-label">Check-ins</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="100" data-suffix="%">0</span>
+          <span class="stat-label">Recommend on Facebook</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ══════════════ MARQUEE ══════════════ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Food</span><i></i><span>Coffee</span><i></i><span>Dessert</span><i></i><span>Drinks</span><i></i>
+      <span>Food</span><i></i><span>Coffee</span><i></i><span>Dessert</span><i></i><span>Drinks</span><i></i>
+      <span>Food</span><i></i><span>Coffee</span><i></i><span>Dessert</span><i></i><span>Drinks</span><i></i>
+      <span>Food</span><i></i><span>Coffee</span><i></i><span>Dessert</span><i></i><span>Drinks</span><i></i>
+    </div>
+  </div>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="about-card about-card-1">
+          <span class="about-card-no">Nº 01</span>
+          <h3>Loaded Nachos</h3>
+          <p>Our signature — a mountain of chips, cheese sauce &amp; salsa</p>
+        </div>
+        <div class="about-card about-card-2">
+          <span class="about-card-no">Nº 02</span>
+          <h3>Arabica Coffee</h3>
+          <p>Brewed for thirty pesos — quality beans, chill prices</p>
+        </div>
+        <div class="about-card about-card-3">
+          <span class="about-card-no">Nº 03</span>
+          <h3>House Cheesecake</h3>
+          <p>Called "the best" by our guests, paired with iced coffee</p>
+        </div>
+        <div class="about-ring" aria-hidden="true"></div>
+      </div>
+
+      <div class="about-copy">
+        <span class="section-eyebrow reveal">Our Story</span>
+        <h2 class="section-title reveal">A chill zone in the <em>City of Smiles</em></h2>
+        <p class="reveal">
+          OverAux The Chillin' Zone is a homegrown Bacolod café built around one simple idea:
+          a place where you can slow down. Come for a thirty-peso cup of Arabica in the morning,
+          stay for loaded nachos and smash burgers at dusk, and cap the night with signature drinks
+          and friends.
+        </p>
+        <p class="reveal">
+          With cozy indoor and outdoor seating, accommodating staff, and a menu that spans
+          comfort food to cocktails, it's no wonder thousands of Bacolodnons have made OverAux
+          their hangout — over 1,700 check-ins and counting.
+        </p>
+
+        <ul class="about-features reveal">
+          <li>
+            <span class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10V7a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v3"/><rect x="3" y="10" width="18" height="6" rx="2"/><path d="M6 16v3M18 16v3"/></svg>
+            </span>
+            <div><strong>Cozy &amp; Outdoor Seating</strong><small>Chill vibes, al fresco option</small></div>
+          </li>
+          <li>
+            <span class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="14" height="11" rx="1"/><path d="M15 9h4l4 4v3h-8V9z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="18.5" cy="18.5" r="2"/></svg>
+            </span>
+            <div><strong>Delivery</strong><small>Grab &amp; foodpanda to your door</small></div>
+          </li>
+          <li>
+            <span class="feature-icon"><span class="peso-glyph">₱</span></span>
+            <div><strong>Fair Prices</strong><small>Rice meals from ₱150 · coffee from ₱30</small></div>
+          </li>
+          <li>
+            <span class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17 18a5 5 0 0 0-10 0"/><line x1="12" y1="9" x2="12" y2="2"/><line x1="4.22" y1="10.22" x2="5.64" y2="11.64"/><line x1="1" y1="18" x2="3" y2="18"/><line x1="21" y1="18" x2="23" y2="18"/><line x1="18.36" y1="11.64" x2="19.78" y2="10.22"/><line x1="23" y1="22" x2="1" y2="22"/></svg>
+            </span>
+            <div><strong>Alangilan Branch</strong><small>Mountain views &amp; sunset dining</small></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MENU ══════════════ -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow reveal">Kitchen &amp; Bar</span>
+        <h2 class="section-title reveal">The <em>Menu</em></h2>
+      </div>
+
+      <div class="menu-sheet reveal">
+        <div class="menu-sheet-head">
+          <svg class="ornament" width="180" height="10" viewBox="0 0 180 10" aria-hidden="true">
+            <line x1="0" y1="5" x2="74" y2="5" stroke="currentColor" stroke-width="1" opacity="0.45"/>
+            <rect x="86" y="1" width="8" height="8" transform="rotate(45 90 5)" fill="currentColor"/>
+            <line x1="106" y1="5" x2="180" y2="5" stroke="currentColor" stroke-width="1" opacity="0.45"/>
+          </svg>
+          <p class="menu-script">OverAux</p>
+          <p class="menu-est">The Chillin' Zone · Bacolod City</p>
+          <svg class="ornament flip" width="180" height="10" viewBox="0 0 180 10" aria-hidden="true">
+            <line x1="0" y1="5" x2="74" y2="5" stroke="currentColor" stroke-width="1" opacity="0.45"/>
+            <rect x="86" y="1" width="8" height="8" transform="rotate(45 90 5)" fill="currentColor"/>
+            <line x1="106" y1="5" x2="180" y2="5" stroke="currentColor" stroke-width="1" opacity="0.45"/>
+          </svg>
+        </div>
+
+        <div class="menu-controls">
+          <div class="menu-tabs" id="menuTabs" role="tablist" aria-label="Menu categories">
+            <button class="menu-tab active" data-cat="all" role="tab" aria-selected="true">All</button>
+            <button class="menu-tab" data-cat="rice" role="tab" aria-selected="false">Rice</button>
+            <button class="menu-tab" data-cat="burgers" role="tab" aria-selected="false">Burgers &amp; Pizza</button>
+            <button class="menu-tab" data-cat="shares" role="tab" aria-selected="false">Nachos &amp; Shares</button>
+            <button class="menu-tab" data-cat="coffee" role="tab" aria-selected="false">Coffee</button>
+            <button class="menu-tab" data-cat="drinks" role="tab" aria-selected="false">Drinks</button>
+            <button class="menu-tab" data-cat="desserts" role="tab" aria-selected="false">Desserts</button>
+            <button class="menu-tab" data-cat="bar" role="tab" aria-selected="false">Bar</button>
+          </div>
+          <div class="menu-search">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="search" id="menuSearch" placeholder="Search the menu…" aria-label="Search menu" />
+          </div>
+        </div>
+
+        <div class="menu-groups" id="menuGrid"><!-- rendered by JS --></div>
+        <p class="menu-empty hidden" id="menuEmpty">Nothing matched that craving — try "nachos" or "coffee".</p>
+
+        <div class="menu-note">
+          <p><span class="menu-note-mark">*</span> Estimated price from similar listings — confirmed prices are unmarked.</p>
+          <p>Menu rotates with the season. Call <a href="tel:+639544867401">+63 954 486 7401</a> for today's specials. Prices in Philippine pesos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PROMOS ══════════════ -->
+  <section class="section promos" id="promos">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow reveal">Ongoing Deals</span>
+        <h2 class="section-title reveal">Sulit <em>promos</em></h2>
+        <p class="section-sub reveal">Real deals we've run — follow our Facebook page for the latest.</p>
+      </div>
+
+      <div class="promo-grid">
+        <article class="promo-card reveal">
+          <span class="promo-no" aria-hidden="true">01</span>
+          <span class="promo-label">Coffee Deal</span>
+          <h3>Brewed Coffee</h3>
+          <div class="promo-price"><span class="promo-old">₱40</span> ₱30</div>
+          <p>High-quality Arabica beans at a chill-time price. All day, every day.</p>
+        </article>
+
+        <article class="promo-card reveal">
+          <span class="promo-no" aria-hidden="true">02</span>
+          <span class="promo-label">Coffee Deal</span>
+          <h3>Iced Coffee</h3>
+          <div class="promo-price"><span class="promo-old">₱80</span> ₱60</div>
+          <p>The reviewer-favorite iced coffee — ice-cold, same Arabica brew.</p>
+        </article>
+
+        <article class="promo-card reveal">
+          <span class="promo-no" aria-hidden="true">03</span>
+          <span class="promo-label">Group Deal</span>
+          <h3>Overload Halo-Halo</h3>
+          <div class="promo-price">Buy 2, 3rd at half price</div>
+          <p>Our signature Overload Halo-Halo, best shared. Bring the barkada.</p>
+        </article>
+
+        <article class="promo-card reveal">
+          <span class="promo-no" aria-hidden="true">04</span>
+          <span class="promo-label">Limited Run</span>
+          <h3>Signature Drinks Duo</h3>
+          <div class="promo-price">Two for ₱250</div>
+          <p>Any two signature drinks — the classic Masskara-season combo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ RATINGS ══════════════ -->
+  <section class="section ratings" id="ratings">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow reveal">Word on the Street</span>
+        <h2 class="section-title reveal">Ratings &amp; <em>reviews</em></h2>
+        <p class="section-sub reveal">What guests say across Facebook and Google.</p>
+      </div>
+
+      <div class="rating-summary">
+        <div class="rating-big reveal">
+          <div class="rating-big-score">4.2<span>/5</span></div>
+          <div class="stars" data-rating="4.2" aria-label="4.2 out of 5 stars"></div>
+          <p>Combined score across platforms</p>
+        </div>
+
+        <div class="rating-bars reveal" aria-label="Rating breakdown">
+          <div class="rating-bar-row">
+            <span class="rating-bar-source">Facebook recommends</span>
+            <div class="rating-bar"><div class="rating-bar-fill" data-width="100"></div></div>
+            <span class="rating-bar-value">100% <small>(332 reviews)</small></span>
+          </div>
+          <div class="rating-bar-row">
+            <span class="rating-bar-source">Facebook rating</span>
+            <div class="rating-bar"><div class="rating-bar-fill" data-width="66"></div></div>
+            <span class="rating-bar-value">3.3/5 <small>(347 reviews)</small></span>
+          </div>
+          <div class="rating-bar-row">
+            <span class="rating-bar-source">Google rating</span>
+            <div class="rating-bar"><div class="rating-bar-fill" data-width="76"></div></div>
+            <span class="rating-bar-value">3.8/5 <small>(15 reviews)</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-grid">
+        <figure class="review-card reveal">
+          <div class="stars" data-rating="5"></div>
+          <blockquote>"Cozy spot for friends and family… the <b>best cheesecake and iced coffee</b>."</blockquote>
+          <figcaption><span class="avatar" style="--a:#d9a441">A</span><div><strong>Aneka Demata</strong><small>Facebook review</small></div></figcaption>
+        </figure>
+
+        <figure class="review-card reveal">
+          <div class="stars" data-rating="5"></div>
+          <blockquote>"Relaxing ambiance and very accommodating service — good for hanging out."</blockquote>
+          <figcaption><span class="avatar" style="--a:#c96f2e">A</span><div><strong>Airah Bedrio</strong><small>Facebook review</small></div></figcaption>
+        </figure>
+
+        <figure class="review-card reveal">
+          <div class="stars" data-rating="4"></div>
+          <blockquote>"Enjoyed the food… server was nice, just needs to be more knowledgeable about the menu."</blockquote>
+          <figcaption><span class="avatar" style="--a:#8fbf7f">A</span><div><strong>Ash Ley</strong><small>Facebook review</small></div></figcaption>
+        </figure>
+
+        <figure class="review-card reveal">
+          <div class="stars" data-rating="4"></div>
+          <blockquote>"Terrific service" — a common note from Google reviewers who dropped by for coffee and bites.</blockquote>
+          <figcaption><span class="avatar" style="--a:#5ca4a3">G</span><div><strong>Google reviewers</strong><small>Google reviews</small></div></figcaption>
+        </figure>
+      </div>
+
+      <div class="ratings-cta reveal">
+        <p>Chilled with us lately?</p>
+        <div class="ratings-cta-buttons">
+          <a class="btn btn-accent" href="https://www.facebook.com/OverAuxTheChillinZone" target="_blank" rel="noopener">Leave a Facebook review</a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/OverAux+Bacolod" target="_blank" rel="noopener">Review on Google</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ BRANCHES ══════════════ -->
+  <section class="section branches" id="branches">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow reveal">Find Your Zone</span>
+        <h2 class="section-title reveal">Two ways to <em>chill</em></h2>
+      </div>
+
+      <div class="branch-grid">
+        <article class="branch-card reveal">
+          <div class="branch-flag">Main Branch</div>
+          <h3>B.S. Aquino Drive</h3>
+          <p class="branch-desc">The original chillin' zone in Villamonte — cozy indoor seats, outdoor tables, coffee all day, and the full kitchen until late.</p>
+          <ul class="branch-meta">
+            <li>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              463 B.S. Aquino Drive, Villamonte, Bacolod City 6100
+            </li>
+            <li>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Daily · 8:00 AM – 9:00 PM
+            </li>
+            <li>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +63 954 486 7401
+            </li>
+          </ul>
+          <div class="branch-actions">
+            <a class="btn btn-accent btn-sm" href="https://www.google.com/maps/search/?api=1&query=463+B.S.+Aquino+Drive+Villamonte+Bacolod+City" target="_blank" rel="noopener">Get Directions</a>
+            <a class="btn btn-ghost btn-sm" href="tel:+639544867401">Call</a>
+          </div>
+        </article>
+
+        <article class="branch-card branch-card-alt reveal">
+          <div class="branch-flag branch-flag-alt">Sunset Spot</div>
+          <h3>Alangilan</h3>
+          <p class="branch-desc">OverAux's chill-out spot up in Alangilan — same menu favorites with mountain views and golden-hour sunsets. Best visited late afternoon.</p>
+          <ul class="branch-meta">
+            <li>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Alangilan, Bacolod City, Negros Occidental
+            </li>
+            <li>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+              Golden hour · sunset views
+            </li>
+          </ul>
+          <div class="branch-actions">
+            <a class="btn btn-accent btn-sm" href="https://www.google.com/maps/search/?api=1&query=OverAux+Alangilan+Bacolod" target="_blank" rel="noopener">Get Directions</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="branch-note reveal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><path d="M12 9v4M12 17h.01"/></svg>
+        <span>Heads up: our former <b>4th Street</b> location has closed — catch us at B.S. Aquino Drive or Alangilan instead. Hours can vary; a quick call saves the trip.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ VISIT / MAP ══════════════ -->
+  <section class="section visit" id="visit">
+    <div class="container visit-grid">
+      <div class="visit-info">
+        <span class="section-eyebrow reveal">Visit Us</span>
+        <h2 class="section-title reveal">Plan your <em>chill</em></h2>
+
+        <div class="hours-card reveal">
+          <h3>
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            Opening Hours
+          </h3>
+          <table class="hours-table">
+            <tbody>
+              <tr data-today=""><td>Monday – Friday</td><td>8:00 AM – 9:00 PM</td></tr>
+              <tr data-today=""><td>Saturday</td><td>8:00 AM – 9:00 PM</td></tr>
+              <tr data-today=""><td>Sunday</td><td>8:00 AM – 9:00 PM</td></tr>
+            </tbody>
+          </table>
+          <p class="hours-note">Kitchen may close earlier on some days — call ahead for late-night cravings.</p>
+        </div>
+
+        <div class="delivery-card reveal">
+          <h3>
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="14" height="11" rx="1"/><path d="M15 9h4l4 4v3h-8V9z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="18.5" cy="18.5" r="2"/></svg>
+            Can't come to us? We'll come to you
+          </h3>
+          <div class="delivery-options">
+            <a href="https://foodpanda.ph" target="_blank" rel="noopener" class="delivery-chip">
+              <span class="delivery-chip-logo" style="--c:#d70f64">p</span>
+              <div><strong>foodpanda</strong><small>Nacho fries to your door</small></div>
+            </a>
+            <a href="https://food.grab.com/ph/western-visayas/bacolod-city/" target="_blank" rel="noopener" class="delivery-chip">
+              <span class="delivery-chip-logo" style="--c:#00b14f">G</span>
+              <div><strong>GrabFood</strong><small>via Maid in Bacolod / Maxxim</small></div>
+            </a>
+            <a href="tel:+639544867401" class="delivery-chip">
+              <span class="delivery-chip-logo" style="--c:#d9a441">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <div><strong>Call directly</strong><small>+63 954 486 7401</small></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="visit-map reveal">
+        <iframe
+          title="OverAux B.S. Aquino Drive location map"
+          src="https://www.google.com/maps?q=463%20B.S.%20Aquino%20Drive%2C%20Villamonte%2C%20Bacolod%20City%2C%20Philippines&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT / RESERVE ══════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-copy">
+        <span class="section-eyebrow reveal">Reserve or Say Hi</span>
+        <h2 class="section-title reveal">Save your <em>seat</em></h2>
+        <p class="reveal">
+          Planning a birthday, a barkada night, or a quiet coffee afternoon?
+          Drop us a message and we'll hold a table. Walk-ins are always welcome too.
+        </p>
+        <div class="contact-channels reveal">
+          <a class="contact-channel" href="tel:+639544867401">
+            <span class="channel-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <div><small>Call or text</small><strong>+63 954 486 7401</strong></div>
+          </a>
+          <a class="contact-channel" href="https://www.facebook.com/OverAuxTheChillinZone" target="_blank" rel="noopener">
+            <span class="channel-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </span>
+            <div><small>Messenger</small><strong>fb.com/OverAuxTheChillinZone</strong></div>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="reserveForm" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="fName">Name</label>
+            <input id="fName" name="name" type="text" placeholder="Juan Dela Cruz" required />
+          </div>
+          <div class="form-field">
+            <label for="fPhone">Mobile</label>
+            <input id="fPhone" name="phone" type="tel" placeholder="09xx xxx xxxx" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="fDate">Date</label>
+            <input id="fDate" name="date" type="date" required />
+          </div>
+          <div class="form-field">
+            <label for="fTime">Time</label>
+            <input id="fTime" name="time" type="time" min="08:00" max="21:00" required />
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="fGuests">Guests</label>
+          <select id="fGuests" name="guests">
+            <option>1–2 guests</option>
+            <option selected>3–5 guests</option>
+            <option>6–10 guests</option>
+            <option>10+ (party / event)</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="fNotes">Notes <span>(optional)</span></label>
+          <textarea id="fNotes" name="notes" rows="3" placeholder="Birthday setup, outdoor table, cake request…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-accent btn-lg btn-block">Request Reservation</button>
+        <p class="form-fineprint">This sends a draft — we'll confirm via call or Messenger.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo">
+          <span class="nav-logo-mark">OA</span>
+          <span class="nav-logo-text">OverAux<small>The Chillin' Zone</small></span>
+        </a>
+        <p>Where time stops. Food · Coffee · Dessert · Drinks — proudly homegrown in Bacolod City.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#promos">Promos</a>
+        <a href="#ratings">Ratings</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <a href="#branches">Branches</a>
+        <a href="#visit">Hours &amp; Map</a>
+        <a href="#contact">Reservations</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://www.facebook.com/OverAuxTheChillinZone" target="_blank" rel="noopener">Facebook</a>
+        <a href="tel:+639544867401">+63 954 486 7401</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=463+B.S.+Aquino+Drive+Villamonte+Bacolod+City" target="_blank" rel="noopener">B.S. Aquino Drive, Bacolod</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>© <span id="year">2026</span> OverAux The Chillin' Zone · Unofficial fan-made showcase site. Info gathered from public posts &amp; listings — verify details before visiting.</p>
+      <a href="#home" class="back-top" id="backTop" aria-label="Back to top">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        Top
+      </a>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
